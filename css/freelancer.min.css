@@ -129,3 +129,19 @@ div#maincontent{outline:0}
 	font-weight:bold;
 	opacity:1;
 }
+
+.img-center {
+    margin:0 auto;
+}
+
+.etwasAbstand{
+    margin: 10px;
+}
+
+.abstandNachObenVeringern{
+    margin-top: -60px;
+}
+
+.textBuendig{
+    text-align: justify;
+}
