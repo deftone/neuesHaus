@@ -240,8 +240,44 @@
 
                 <hr class="solid">
 
-                <p>hier dann die videos</p>
+                <p>hier dann die videos und noch etwas mehr text bla bla bla </p>
             </div>
+
+
+            <div class="row">
+                <div class="col-sm-4  portfolio-item">
+                    <a href="#videoModal1" class="portfolio-link" data-toggle="modal">
+                        <img src="bilder/projekt1/projekt1Banner.jpg" class="img-responsive img-center" alt="todo">
+                        <div class="captionEigene">
+                            &nbsp; Video 1: xxxxx &nbsp;
+                        </div>
+                    </a>
+                </div>
+
+                <div class="visible-xs"><br></div>
+
+                <div class="col-sm-4  portfolio-item">
+                    <a href="#videoModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="captionEigene">
+                            &nbsp; Video 2: xxx &nbsp;
+                        </div>
+                        <img src="bilder/projekt1/projekt1Banner.jpg" class="img-responsive img-center" alt="todo">
+                    </a>
+                </div>
+
+                <div class="visible-xs"><br></div>
+
+                <div class="col-sm-4   portfolio-item">
+                    <a href="#videoModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="captionEigene">
+                            &nbsp; Video 3: xxxxx &nbsp;
+                        </div>
+                        <img src="bilder/projekt1/projekt1Banner.jpg" class="img-responsive img-center" alt="todo">
+                    </a>
+                </div>
+            </div>
+
+
         </div>
     </div>
 </section>
@@ -364,7 +400,7 @@
     </a>
 </div>
 
-<!-- Portfolio Modals -->
+<!-- Projekt Modals -->
 <div class="portfolio-modal modal fade " id="projectModal1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content dunkelblau">
         <div class="close-modal" data-dismiss="modal">
@@ -413,6 +449,39 @@
 
                 <div class="visible-xs"><br></div>
 
+            </div>
+
+
+            <button type="button" class="btn btn-default etwasAbsandNachUnten" data-dismiss="modal"><i class="fa fa-times"></i>
+                Schliessen
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Video Modals -->
+<div class="portfolio-modal modal fade " id="videoModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content dunkelblau">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container abstandNachObenVeringern hellblau">
+
+            <h2>titel</h2>
+            <br>
+
+            <div id = "videoDiv">
+                <video id="video"
+                       controls
+                       width="480" height="360"
+                       poster="bilder/poster.jpg">
+                    <source src="video/Untitled.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    <!--<source src="video/video.webm" type='video/webm; codecs="vp8, vorbis"'>-->
+                    <!--<source src="video/video.ogv" type='video/ogg; codecs="theora, vorbis"'>-->
+                </video>
             </div>
 
 
