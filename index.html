@@ -44,7 +44,7 @@
                     data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
-            <div class="pull-left"> <img src="bilder/Logo2.jpg"></div>
+            <div class="pull-left"><img src="bilder/Logo2.jpg"></div>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -240,16 +240,22 @@
 
                 <hr class="solid">
 
-                <p>hier dann die videos und noch etwas mehr text bla bla bla </p>
+                <p>hier dann die videos und noch etwas mehr text bla bla bla
+                    <br>
+                    ich habe das video in 3 versch. groessen konvertiert. das orginal ist 22MB, das ist echt gross.
+                    hier sind 3 etwas kleinere varianten. ich kann es auch noch groesser machen. bitte teste mal die
+                    qualitaet und auch wie schnell/langsam
+                    man das video angucken kann...
+                </p>
             </div>
 
 
             <div class="row">
                 <div class="col-sm-4  portfolio-item">
                     <a href="#videoModal1" class="portfolio-link" data-toggle="modal">
-                        <img src="bilder/projekt1/projekt1Banner.jpg" class="img-responsive img-center" alt="todo">
+                        <img src="video/video1Banner.jpg" class="img-responsive img-center" alt="todo">
                         <div class="captionEigene">
-                            &nbsp; Video 1: xxxxx &nbsp;
+                            &nbsp; Video 1: 2.3 MB &nbsp;
                         </div>
                     </a>
                 </div>
@@ -257,22 +263,22 @@
                 <div class="visible-xs"><br></div>
 
                 <div class="col-sm-4  portfolio-item">
-                    <a href="#videoModal1" class="portfolio-link" data-toggle="modal">
+                    <a href="#videoModal2" class="portfolio-link" data-toggle="modal">
                         <div class="captionEigene">
-                            &nbsp; Video 2: xxx &nbsp;
+                            &nbsp; Video 1: 4.6 MB &nbsp;
                         </div>
-                        <img src="bilder/projekt1/projekt1Banner.jpg" class="img-responsive img-center" alt="todo">
+                        <img src="video/video1Banner.jpg" class="img-responsive img-center" alt="todo">
                     </a>
                 </div>
 
                 <div class="visible-xs"><br></div>
 
                 <div class="col-sm-4   portfolio-item">
-                    <a href="#videoModal1" class="portfolio-link" data-toggle="modal">
+                    <a href="#videoModal3" class="portfolio-link" data-toggle="modal">
                         <div class="captionEigene">
-                            &nbsp; Video 3: xxxxx &nbsp;
+                            &nbsp; Video 1: 6.5 MB &nbsp;
                         </div>
-                        <img src="bilder/projekt1/projekt1Banner.jpg" class="img-responsive img-center" alt="todo">
+                        <img src="video/video1Banner.jpg" class="img-responsive img-center" alt="todo">
                     </a>
                 </div>
             </div>
@@ -452,7 +458,8 @@
             </div>
 
 
-            <button type="button" class="btn btn-default etwasAbsandNachUnten" data-dismiss="modal"><i class="fa fa-times"></i>
+            <button type="button" class="btn btn-default etwasAbsandNachUnten" data-dismiss="modal"><i
+                    class="fa fa-times"></i>
                 Schliessen
             </button>
         </div>
@@ -471,27 +478,92 @@
         <div class="container abstandNachObenVeringern hellblau">
 
             <h2>titel</h2>
+            <p>dieses Video ist 2,3 MB gross</p>
             <br>
 
-            <div id = "videoDiv">
-                <video id="video"
+            <div id="videoDiv1">
+                <video id="video1"
                        controls
                        width="480" height="360"
                        poster="bilder/poster.jpg">
-                    <source src="video/Untitled.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-                    <!--<source src="video/video.webm" type='video/webm; codecs="vp8, vorbis"'>-->
-                    <!--<source src="video/video.ogv" type='video/ogg; codecs="theora, vorbis"'>-->
+                    <source src="video/HerzJesuMosaik1.webm" type="video/webm">
                 </video>
             </div>
 
 
-            <button type="button" class="btn btn-default etwasAbsandNachUnten" data-dismiss="modal"><i class="fa fa-times"></i>
+            <button type="button" class="btn btn-default etwasAbsandNachUnten" data-dismiss="modal"><i
+                    class="fa fa-times"></i>
                 Schliessen
             </button>
         </div>
     </div>
 </div>
 
+
+<div class="portfolio-modal modal fade " id="videoModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content dunkelblau">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container abstandNachObenVeringern hellblau">
+
+            <h2>titel</h2>
+            <p>dieses Video ist 4.6 MB gross</p>
+            <br>
+
+            <div id="videoDiv2">
+                <video id="video2"
+                       controls
+                       width="480" height="360"
+                       poster="bilder/poster.jpg">
+                    <source src="video/HerzJesuMosaik2.webm" type="video/webm">
+                </video>
+            </div>
+
+
+            <button type="button" class="btn btn-default etwasAbsandNachUnten" data-dismiss="modal"><i
+                    class="fa fa-times"></i>
+                Schliessen
+            </button>
+        </div>
+    </div>
+</div>
+
+
+<div class="portfolio-modal modal fade " id="videoModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content dunkelblau">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container abstandNachObenVeringern hellblau">
+
+            <h2>titel</h2>
+            <p>dieses Video ist 6,5 MB gross</p>
+            <br>
+
+            <div id="videoDiv3">
+                <video id="video3"
+                       controls
+                       width="480" height="360"
+                       poster="bilder/poster.jpg">
+                    <source src="video/HerzJesuMosaik3.webm" type="video/webm">
+                </video>
+            </div>
+
+
+            <button type="button" class="btn btn-default etwasAbsandNachUnten" data-dismiss="modal"><i
+                    class="fa fa-times"></i>
+                Schliessen
+            </button>
+        </div>
+    </div>
+</div>
 
 <!-- jQuery -->
 <script src="vendor/jquery/jquery.min.js"></script>
