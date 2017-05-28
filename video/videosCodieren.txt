@@ -1,0 +1,7 @@
+ffmpeg -i HerzJesuMosaik.avi -f webm -vcodec libvpx  -crf 10 -b:v 3M  -s 512x384  HerzJesuMosaik3.webm
+
+https://gist.github.com/yellowled/1439610
+
+https://www.virag.si/2012/01/webm-web-video-encoding-tutorial-with-ffmpeg-0-9/
+
+https://gist.github.com/Vestride/278e13915894821e1d6f
