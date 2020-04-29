@@ -149,14 +149,18 @@ div#maincontent{outline:0}
     margin: 10px;
 }
 
-.abstandNachObenVeringern{
-    margin-top: -60px;
-}
 
 .textBuendig{
     text-align: justify;
 }
 
 .etwasAbsandNachUnten{
-    margin-bottom: 10px;
+    margin: 20px;
 }
+
+.keinAbstandNachOben{
+    margin-top: -50px;
+    }
+
+h2 {
+    padding: 30px}
